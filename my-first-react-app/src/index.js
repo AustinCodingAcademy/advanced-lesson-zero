@@ -4,7 +4,10 @@ import './index.css';
 
 const App = function() {
     return (
-        <h1>Hello React!</h1>
+        <div>
+            <h1>Hello React!</h1>
+            <img src={require('./img/es6complete.png')} role="presentation" />
+        </div>
     );
 }
 
