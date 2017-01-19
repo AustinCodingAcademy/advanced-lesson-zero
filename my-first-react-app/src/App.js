@@ -1,5 +1,4 @@
 import React from 'react';
-import ReactDOM from 'react-dom';
 import Hello from './Hello.js';
 
 class App extends React.Component {
@@ -13,7 +12,7 @@ class App extends React.Component {
         return (
             <div>
                 {
-                    users.map(function(user) {
+                    users.map((user) => {
                         return <Hello key={user._id} name={user.name} />;
                     })
                 }
