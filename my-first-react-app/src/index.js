@@ -1,12 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-
-const App = function() {
-  return (
-    <h1>Hello React!</h1>
-  );
-}
+import App from './App.js';
 
 ReactDOM.render(
   <App />,
