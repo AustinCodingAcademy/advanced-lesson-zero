@@ -1,17 +1,22 @@
 import React, { Component } from 'react';
-import logo from './logo.svg';
 import './App.css';
 import Hello from './hello.js';
 
 class App extends Component {
   render() {
+
+    const users = [
+      {_id: 1, name:'Leia'},
+      {_id: 2, name:'Luke'},
+      {_id: 3, name:'Han'}
+    ];
     return (
-      <div className="App">
-        <div className="App-header">
-          <img src={logo} className="App-logo" alt="logo" />
-          <h2>Welcome to React</h2>
-        </div>
-        <Hello/>
+      <div>
+        {
+          users.map(function(person){
+            return <Hello key={users.id} name={users.name}/>;
+          })
+        }
       </div>
     );
   }
