@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import './App.css';
-import Hello from './hello.js';
+import Hello from './Hello.js';
 
 class App extends Component {
   render() {
@@ -11,10 +11,10 @@ class App extends Component {
       {_id: 3, name:'Han'}
     ];
     return (
-      <div>
+      <div className="greetings">
         {
           users.map(function(person){
-            return <Hello key={users.id} name={users.name}/>;
+            return <Hello key={person._id} name={person.name}/>;
           })
         }
       </div>
