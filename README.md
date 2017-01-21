@@ -1,3 +1,3 @@
 # advanced-lesson-zero
-ernietrevino
+ernietrevino.
 A starter repository for lesson-zero of the advanced course.
