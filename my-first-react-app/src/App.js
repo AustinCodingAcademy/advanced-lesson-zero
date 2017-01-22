@@ -11,7 +11,7 @@ class App extends React.Component {
 
     return (
       <div>
-        {users.map(user => <Hello key={user.id} name={user.name} />)}
+        {users.map(user => <Hello key={user._id} name={user.name} />)}
       </div>
     );
   }
