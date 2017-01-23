@@ -1,12 +1,8 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import './index.css';
 
-const App = function() {
-  return (
-    <h1>Hello React!</h1>
-  );
-}
+import App from "./App.js";
+//importing App here, and inside of App is where I import Hello
 
 ReactDOM.render(
   <App />,
