@@ -1,0 +1,6 @@
+My final project concept is a Appointment Book that will allow users to pick the first available date/time for an appointment in an office.
+User will do this through a secure login portal.
+User will be allowed to choose the office or have the app find nearest location to them.
+Once user appointment is booked then office is notified.
+User will sign in at the office using a kiosk that is an tablet.
+when check-in is complete a notification is sent to staff to alert customer has arrived.
