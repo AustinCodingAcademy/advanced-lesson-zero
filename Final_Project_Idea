@@ -1,0 +1,13 @@
+Happy Hour Finder
+
+
+Goal of App:
+
+Easy way to find happy hours based on your location.
+
+Features:
+
+Use color coding and ajax requests from google map feature to figure out if there is a bar/restaurant within your area that is currently in happy hour, about to begin happy hour, or about to end happy hour.
+Allow user to view menu with a single click.
+
+Reach Feature: Allow restaurant to create "push notification" to people in the area about specials or promos for that day
