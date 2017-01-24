@@ -1,0 +1,7 @@
+geofence social media app that is searchable by location and hashtag. 
+
+1. Hashtag search system and city and local searching
+
+2. create own geofence
+
+3. post content to a board
