@@ -1,14 +1,43 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import './index.css';
 
-const App = function() {
-  return (
-    <h1>Hello React!</h1>
-  );
+class Hello extends React.Component {
+  render() {
+    return <h1>Hello {this.props.name}!</h1>;
+  }
+}
+class StoryBox extends React.Component {
+	render() {
+		return(<div>My Story Box</div>);
+	}
+}
+class App extends React.Component {
+  render() {
+    const users = [
+      { _id: 1, name: 'Leia' },
+      { _id: 2, name: 'Luke' },
+      { _id: 3, name: 'Han' }
+    ];
+
+    return (
+      <div>
+        {
+          users.map(function(user) {
+            return <Hello key={user._id} name={user.name} />;
+          })
+        }
+      </div>
+    );
+  }
 }
 
 ReactDOM.render(
   <App />,
   document.getElementById('root')
+);
+
+ReactDOM.render(
+  <StoryBox />,
+  document.getElementById('test')
+
 );
