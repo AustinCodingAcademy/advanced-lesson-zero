@@ -2,4 +2,4 @@
 
 A starter repository for lesson-zero of the advanced course.
 
-I made a change.
+Ray Hansen
